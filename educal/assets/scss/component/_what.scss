@@ -8,7 +8,7 @@
     &__item{
         @include border-radius(6px);
         &::after{
-            position: absolute;
+            position: inherit;
             content: '';
             left: 0;
             top: 0;

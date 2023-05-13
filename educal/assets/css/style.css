@@ -198,7 +198,7 @@ p {
 }
 
 *::-moz-selection {
-  background: #2b4eff;
+  background: #2b4eff; 
   color: #ffffff;
   text-shadow: none;
 }
@@ -655,7 +655,7 @@ p {
 .section__title {
   font-size: 40px;
   color: #0e1133;
-  text-transform: capitalize;
+  text-transform: inherit;
   z-index: 1;
   margin-bottom: 3px;
 }
@@ -2112,8 +2112,8 @@ p {
   position: absolute;
 }
 .hero__shape img.hero-1-circle {
-  top: 25%;
-  left: 5%;
+  top: 7%;
+  left: 70%;
   -webkit-animation: hero-circle-1 6s linear 0s infinite alternate;
   -moz-animation: hero-circle-1 6s linear 0s infinite alternate;
   -o-animation: hero-circle-1 6s linear 0s infinite alternate;
@@ -2127,7 +2127,7 @@ p {
   right: 0;
   bottom: 38%;
 }
-.hero__search-input {
+.hero__search-input { 
   position: relative;
   width: 370px;
 }
